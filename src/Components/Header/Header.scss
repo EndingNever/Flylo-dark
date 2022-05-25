@@ -1,29 +1,6 @@
-@media screen and (min-width: 1440px){
+@media screen and (max-width: 600px){
   header {
-    font-weight: 400;
-    padding: 4vw 4vw 0px 4vw;
-    font-family: "Raleway", sans-serif;
-    nav {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      img {
-        width: 180px;
-      }
-      ul {
-        display: flex;
-        align-items: center;
-        li {
-          list-style: none;
-          margin: 0px 28px 0px 28px;
-        }
-      }
-    }
-  }
-}
-  
-  @media screen and (max-width: 376px){
-  header {
+    // font-size: 14px;
     margin-top: 24px;
     font-weight: 400;
     padding: 0px 20px 0px 20px;
@@ -41,6 +18,81 @@
         li {
           list-style: none;
           margin: 0px 4px 0px 4px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 600px) {
+  header {
+    font-weight: 400;
+    // font-size: 20px;
+    padding: 6vw 6vw 0px 6vw;
+    font-family: "Raleway", sans-serif;
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      img {
+        width: 180px;
+      }
+      ul {
+        display: flex;
+        align-items: center;
+        li {
+          list-style: none;
+          margin: 0px 20px 0px 20px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1200px){
+  header {
+    // font-size: 18px;
+    font-weight: 400;
+    padding: 8vh 4vw 0px 4vw;
+    font-family: "Raleway", sans-serif;
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      img {
+        // width: 160px;
+      }
+      ul {
+        display: flex;
+        align-items: center;
+        li {
+          list-style: none;
+          margin: 0px 28px 0px 28px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1440px){
+  header {
+    // font-size: 24px;
+    font-weight: 400;
+    padding: 7vh 4vw 0px 4vw;
+    font-family: "Raleway", sans-serif;
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      img {
+        width: 180px;
+      }
+      ul {
+        display: flex;
+        align-items: center;
+        li {
+          list-style: none;
+          margin: 0px 28px 0px 28px;
         }
       }
     }

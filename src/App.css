@@ -5,7 +5,8 @@
 }
 
 body{
-  background-color: hsl(218, 28%, 13%);
+  background-color: hsl(217, 28%, 15%);
+  /* background-color: hsl(218, 28%, 13%); */
   color: hsl(0, 0%, 100%);
   font-size: 14px;
   /* font-family: 'Open Sans', sans-serif; */
