@@ -19,3 +19,29 @@ header {
     }
   }
 }
+
+
+@media screen and (min-width: 375px){
+  header {
+    font-weight: 400;
+    padding: 4vw 4vw 0px 4vw;
+    font-family: "Raleway", sans-serif;
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      img {
+        width: 100px;
+      }
+      ul {
+        display: flex;
+        align-items: center;
+        li {
+          list-style: none;
+          border: 2px solid green;
+          // margin: 0px 28px 0px 28px;
+        }
+      }
+    }
+  }
+}
