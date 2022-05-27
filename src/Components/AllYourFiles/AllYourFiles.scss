@@ -54,26 +54,21 @@
 
 @media screen and (min-width: 1440px) {
   main {
-    // background-image: url('/src/bg-curvy-desktop.svg');
-    // background: url("/public/Images/bg-curvy-desktop.svg");
-    
     font-family: "Raleway", sans-serif;
     margin-top: 24px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    img {
-      width: auto;
-      object-fit: contain;
-    }
     .curvy-image{
       position: absolute;
-      top: 670px;
+      top: 720px;
       width: 99vw;
+      height: 500px;
       z-index: -99;
       .bg-curvy{
         width: 100%;
+        height: 100%;
         z-index: -99;
       }
     }
@@ -87,7 +82,6 @@
         font-weight: 800;
       }
       p {
-        // border: 2px solid red;
         line-height: 1.8;
         font-size: 18px;
         margin: auto;
@@ -105,8 +99,8 @@
       width: 240px;
       background: linear-gradient(
         to right,
-        hsla(176, 68%, 64%, 0.815),
-        hsla(176, 69%, 40%, 0.825)
+        hsl(186, 63%, 59%),
+        rgba(38, 188, 178, 0.825)
       );
     }
   }

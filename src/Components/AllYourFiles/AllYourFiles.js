@@ -2,6 +2,7 @@ import React from 'react'
 import "./AllYourFiles.scss"
 import Features from '../Features/Features'
 import bg from "../../bg-curvy-desktop.svg"
+import StayProductive from '../StayProductive/StayProductive'
 
 export default function AllYourFiles() {
   return (
@@ -16,6 +17,7 @@ export default function AllYourFiles() {
         <img className='bg-curvy' src={bg} alt="" />
       </div>
       <Features />
+      <StayProductive />
     </main>
   )
 }
