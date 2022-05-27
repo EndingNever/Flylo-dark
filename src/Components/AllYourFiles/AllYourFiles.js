@@ -1,7 +1,7 @@
 import React from 'react'
-import Curvybg from '../Background/Curvybg'
-import Features from '../Features/Features'
 import "./AllYourFiles.scss"
+import Features from '../Features/Features'
+import bg from "../../bg-curvy-desktop.svg"
 
 export default function AllYourFiles() {
   return (
@@ -12,8 +12,10 @@ export default function AllYourFiles() {
         <p>Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and co-workers</p>
       </div>
       <button>Get Started</button>
-      {/* <Curvybg />
-      <Features /> */}
+      <div className="curvy-image">
+        <img className='bg-curvy' src={bg} alt="" />
+      </div>
+      <Features />
     </main>
   )
 }
