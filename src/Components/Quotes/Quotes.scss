@@ -9,12 +9,32 @@
   .testimonials-container {
     display: flex;
     justify-content: space-between;
-    width: 75vw;
+    width: 66vw;
     .testimonials {
       background-color: var(--testimonials);
       box-shadow: 20px 12px 8px hsla(214, 16%, 8%, 0.725);
+      align-items: center;
+      display: flex;
+      justify-content: center;
       height: 250px;
       width: 32%;
+      .testimonials-padding {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 75%;
+        width: 75%;
+        .author {
+          // border: 2px solid red;
+          display: block;
+        }
+        img {
+          display: inline-block;
+          object-fit: cover;
+          border-radius: 50%;
+          width: 40px;
+        }
+      }
     }
   }
 }
