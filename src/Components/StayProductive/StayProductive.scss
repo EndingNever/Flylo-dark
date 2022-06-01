@@ -35,14 +35,20 @@
         width: 65%;
       }
       #see-how-works{
+        color: hsl(176, 68%, 64%);
+        cursor: pointer;
+        width: 150px;
         position: relative;
         &::after {
           content: "";
           position: absolute;
-          bottom: -2px;
+          bottom: -3px;
           left: 0;
-          width: 145px;
+          width: 150px;
           border-bottom: 1px solid hsl(176, 68%, 64%);
+        }
+        &:hover{
+          color: hsla(176, 68%, 64%, 0.415);
         }
       }
     }

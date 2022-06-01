@@ -1,0 +1,20 @@
+.quotes-container {
+  background-color: var(--main-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 150px;
+  padding-top: 150px;
+  // width: 100%;
+  .testimonials-container {
+    display: flex;
+    justify-content: space-between;
+    width: 75vw;
+    .testimonials {
+      background-color: var(--testimonials);
+      box-shadow: 20px 12px 8px hsla(214, 16%, 8%, 0.725);
+      height: 250px;
+      width: 32%;
+    }
+  }
+}

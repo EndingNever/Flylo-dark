@@ -16,8 +16,8 @@ export default function AllYourFiles() {
       <div className="curvy-image">
         <img className='bg-curvy' src={bg} alt="" />
       </div>
-      <Features />
-      <StayProductive />
+      {/* <Features />
+      <StayProductive /> */}
     </main>
   )
 }
