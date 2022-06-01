@@ -34,6 +34,17 @@
         margin-top: 8px;
         width: 65%;
       }
+      #see-how-works{
+        position: relative;
+        &::after {
+          content: "";
+          position: absolute;
+          bottom: -2px;
+          left: 0;
+          width: 145px;
+          border-bottom: 1px solid hsl(176, 68%, 64%);
+        }
+      }
     }
   }
 }
