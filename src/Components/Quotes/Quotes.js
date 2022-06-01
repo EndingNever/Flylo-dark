@@ -1,5 +1,6 @@
 import React from 'react';
-import "./Quotes.scss"
+import "./Quotes.scss";
+import bgQuote from "../../images/bg-quotes.png"
 import Satish from "../../images/profile-1.jpg"
 import Bruce from "../../images/profile-2.jpg"
 import Iva from "../../images/profile-3.jpg"
@@ -29,13 +30,14 @@ const Quotes = () => {
   return (
     <div className='quotes-container'>
       <div className="testimonials-container">
+        <img className='bgQuote' src={bgQuote} alt="" />
         {testimonials.map((testimonial) => (
           <div className="testimonials" id={testimonial.id}>
             <div className="testimonials-padding">
               <p>{text}</p>
-              <img src={testimonial.image} alt={testimonial.author} />
               <p className='author'>{testimonial.author}</p>
               <p className='author'>{authorTitle}</p>
+              <img src={testimonial.image} alt={testimonial.author} />
             </div>
           </div>
         ))}

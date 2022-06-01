@@ -9,7 +9,14 @@
   .testimonials-container {
     display: flex;
     justify-content: space-between;
-    width: 66vw;
+    width: 68vw;
+    .bgQuote{
+      height: 50px;
+      object-fit: contain;
+      position: relative;
+      left: 93px;
+      bottom: 52px;
+    }
     .testimonials {
       background-color: var(--testimonials);
       box-shadow: 20px 12px 8px hsla(214, 16%, 8%, 0.725);
@@ -17,15 +24,15 @@
       display: flex;
       justify-content: center;
       height: 250px;
-      width: 32%;
+      width: 30%;
       .testimonials-padding {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-between;
         height: 75%;
         width: 75%;
+        // border: 2px solid red;
         .author {
-          // border: 2px solid red;
           display: block;
         }
         img {
